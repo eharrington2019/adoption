@@ -1,0 +1,33 @@
+body{
+    background-color: springgreen;
+}
+.pets{
+  display: flex;
+}
+.name{
+  flex: 2;
+}
+.img{
+  width: 100%;
+  border-radius: 2px;
+  box-shadow: 2px 2px 10px #220000;
+}
+.description{
+  margin: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 30px;
+  border: 10px solid blue;
+  border-radius: 50px;
+  background-color: grey;
+  flex-direction:column;
+  box-shadow: 0px 0px 10px #000000;
+  flex: 1;
+}
+.description:before{
+  content: "Specs";
+  font-weight: bold;
+  background: #00AA00;
+  color: black;
+}
